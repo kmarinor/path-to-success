@@ -1,0 +1,245 @@
+/* CSS BY Karoline Marin Ordonez */
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+/* CSS REST */
+/* ROOT VARIABLES */
+:root {
+    --Teal: #4CA7C0;
+    --Purple: #484FB7;
+    --Lavender: #6B8FE7;
+    --Yellow: #E9BB57;
+    --Pink: #D9526F;
+    --Dark-gray: #1E1E1E;
+    --White: #ffffff;
+
+}
+
+/* GLOBAL STYLES (mobile first/small) */
+html {
+    background-color: var(--Purple);
+    font-family: inter;
+}
+
+body {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+header p {
+    background-color: var(--Pink);
+    color: var(--White);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    font-family: kavoon;
+    font-size: 3em;
+    background-color: var(--Lavender);
+    color: var(--White);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin: 0%;
+    padding: 50px;
+}
+
+h2 {
+    font-family: kavoon;
+    font-size: 2em;
+    color: var(--White);
+}
+
+h3 {
+    color: var(--Yellow);
+    font-size: 1.5em;
+}
+
+h4 {
+    color: var(--Purple);
+    font-size: 1.15em;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    top: 0px;
+    right: 0px;
+    flex-direction: row;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+nav h2 {
+    font-family: inter;
+    background-color: var(--Yellow);
+    color: var(--Dark-gray);
+    text-transform: uppercase;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 0px;
+    font-size: 1.5em;
+    height: 30px;
+    padding: 10px;
+}
+
+nav li {
+    list-style: none;
+    margin-top: 0px;
+
+}
+
+nav a {
+    list-style: none;
+    display: inline-flex;
+    background-color: var(--Yellow);
+    color: var(--Dark-gray);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0px 0px 10px 10px;
+    height: 30px;
+    padding: 10px;
+
+}
+
+#serviceType section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+#serviceType {
+    margin: 25px;
+}
+
+#why {
+    background-color: var(--Pink);
+    padding: 5px;
+}
+
+#why li {
+    list-style: none;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 15px;
+    display: inline-flex;
+    width: 150px;
+    margin: 5px;
+    font-size: 1.15em;
+    height: 70px;
+    text-align: center;
+}
+
+#why li:nth-of-type(1) {
+    background-color: var(--Teal);
+}
+
+#why li:nth-of-type(2) {
+    background-color: var(--Lavender);
+}
+
+#why li:nth-of-type(3) {
+    background-color: var(--Yellow);
+}
+
+#why li:nth-of-type(4) {
+    background-color: var(--White);
+}
+
+#why h2 {
+    padding-left: 50px;
+}
+
+#pricing {
+    padding: 15px;
+}
+
+#pricing h2 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#pricing h3 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#pricing table {
+    background-color: var(--Yellow);
+    margin-left: 80px;
+}
+
+#pricing td {
+    background-color: var(--White);
+    padding: 15px;
+}
+
+#pricing th {
+    font-weight: bold;
+    padding: 15px;
+}
+
+#Schedule {
+    background-color: var(--Pink);
+    padding-left: 15px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+#Schedule h2 {
+    padding-top: 5px;
+    margin: 0px;
+}
+
+#Schedule p {
+    color: var(--White);
+    margin-top: 5px;
+}
+
+button {
+    background-color: var(--White);
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 1.15em;
+    text-transform: capitalize;
+    border: none;
+    padding: 10px;
+    box-shadow: 3px 5px var(--Dark-gray);
+}
+
+
+footer {
+    background-color: var(--Lavender);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 30px;
+}
+
+footer small {
+    color: var(--White);
+    padding: 10px;
+}
+
+footer small:last-of-type {
+    text-decoration: underline;
+}
