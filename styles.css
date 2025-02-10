@@ -123,7 +123,7 @@ nav a {
 
 }
 
-h2~ul {
+nav>h2~ul {
     visibility: hidden;
 }
 
