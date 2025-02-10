@@ -39,8 +39,12 @@ header p {
     margin-right: 50px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 10px;
+}
+
+header p~p {
+    visibility: hidden;
 }
 
 header h1 {
@@ -58,11 +62,13 @@ h2 {
     font-family: kavoon;
     font-size: 2em;
     color: var(--White);
+    margin-bottom: 0px;
 }
 
 h3 {
     color: var(--Yellow);
     font-size: 1.5em;
+    margin: 5px;
 }
 
 h4 {
@@ -87,6 +93,7 @@ nav ul {
 
 nav h2 {
     font-family: inter;
+    font-style: italic;
     background-color: var(--Yellow);
     color: var(--Dark-gray);
     text-transform: uppercase;
@@ -111,9 +118,13 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 0px 0px 10px 10px;
-    height: 30px;
-    padding: 10px;
+    height: 45px;
+    padding: 2px;
 
+}
+
+h2~ul {
+    visibility: hidden;
 }
 
 #serviceType section {
@@ -223,6 +234,7 @@ button {
     border: none;
     padding: 10px;
     box-shadow: 3px 5px var(--Dark-gray);
+    margin: 0 auto;
 }
 
 
